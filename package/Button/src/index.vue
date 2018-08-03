@@ -4,7 +4,13 @@
   </div>
 </template>
 <script>
-  export default{
-    name: 'MButton', // 定义这个组件的名称
-  }
+export default {
+  name: "MButton" // 定义这个组件的名称
+};
 </script>
+<style lang="scss">
+$color:red;
+.M_button {
+  color: $color;
+}
+</style>

@@ -2,7 +2,7 @@
   <div id="app">
     <img src="./assets/logo.png">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <m-button></m-button>
   </div>  
 </template>
 
@@ -15,8 +15,6 @@ export default {
     }
   },
   mounted(){
-   let a = this.$service.telNumberCheck("hello"); 
-   console.log(a);
   }
 }
 </script>

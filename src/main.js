@@ -1,10 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VuePlugin from './lib/index';
-
+import VuePlugin from '../index.js';
 Vue.use(VuePlugin);
 
-new Vue({
+window.vm = new Vue({
   el: '#app',
   render: h => h(App)
 })
