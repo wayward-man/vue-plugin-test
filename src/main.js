@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VuePlugin from 'xiaofei-vue-plugin';
+import VuePlugin from './lib/index';
 
 Vue.use(VuePlugin);
 

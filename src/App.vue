@@ -3,7 +3,7 @@
     <img src="./assets/logo.png">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
-  </div>
+  </div>  
 </template>
 
 <script>
@@ -13,6 +13,10 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  mounted(){
+   let a = this.$service.telNumberCheck("hello"); 
+   console.log(a);
   }
 }
 </script>
